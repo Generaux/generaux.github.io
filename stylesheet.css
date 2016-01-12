@@ -7,14 +7,14 @@ html {
 }
 
 body {
-	margin: 0px;
+	margin: 0;
 	color: #ffffff;
 } 
 
 h3 {
 	font-family: Lato;
 	color: #D81B60;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 p {
@@ -25,7 +25,7 @@ p {
 
 #title {
 	padding-top: 85px;
-	margin-top: 0px;
+	margin-top: 0;
 	text-align: center;
 	color: #9E9E9E;
 	font-size: 20px;
@@ -61,7 +61,7 @@ p {
 }
 
 #container {
-	padding-top: 0px;
+	padding-top: 0;
 	background-color: #F5F5F5; 
 	max-width: 800px;
 	height: 150vh;
@@ -71,7 +71,7 @@ p {
 #photo_single {
 	max-width: 600px;
 	margin-left: 100px;
-	margin-top: 0px;
+	margin-top: 0;
 	display: inline-block;
 
 }
