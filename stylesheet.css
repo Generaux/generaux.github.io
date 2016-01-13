@@ -14,53 +14,50 @@ body {
 h3 {
 	font-family: Lato;
 	color: #D81B60;
-	margin-bottom: 1em;
+	margin-bottom: 10px;
 }
 
 p {
-	font-size: 1em;
 	font-family: Lato;
-	margin-top: 1em;
+	margin-top: 10px;
 	color: #9E9E9E;
 }
 
 #title {
-	padding-top: 3em;
+	padding-top: 120px;
 	margin-top: 0;
 	text-align: center;
 	color: #9E9E9E;
-	font-size: 2em;
+	font-size: 20px;
 	text-decoration: none;
 }
 
 #header {
 	background-color: #424242;
-	width: 50em;
-	height: 15em;
+	width: 800px;
+	height: 250px;
 	font-family: Lato;
 	border-bottom: 2px solid #D81B60;
 }
 
 .nav {
 	display: inline-block;
-	width: 10em;
-	height: 10em;
+	width: 160px;
+	height: 160px;
 	background-color: #F5F5F5;
 	text-align: center;
 	border-bottom: 2px solid #E0E0E0;
 	text-decoration: none;
 	-webkit-transition: border-bottom .5s;
 	transition: border-bottom .5s;
-	transition: background-color .25s;
 }
 
 .nav p {
-	margin-top: 4em;
+	margin-top: 70px;
 }
 
 .nav:hover {
 	border-bottom: 2px solid #D81B60;
-	background-color: #FAFAFA
 }
 
 .nav:active {
@@ -101,6 +98,20 @@ p {
 	
 }
 
+.photo_half {
+	height: 200px;
+	width: 275px;
+	background-color: #EEEEEE;
+	display: inline-block;
+	-webkit-transition: background-color .5s;
+	transition: background-color .5s;
+
+}
+
+.photo_half:hover {
+	background-color: #F5F5F5;
+}
+
 #photo_b {
 	max-width: 275px;
 	display: inline-block;
@@ -122,13 +133,4 @@ img:hover {
     filter: alpha(opacity=60);
 }
 
-#photo_small {
-	height: 200px;
-	width: 275px;
-	background-color: #EEEEEE;
-	display: inline-block;
-	-webkit-transition: background-color .5s;
-	transition: background-color .5s;
-	border-bottom: 2px solid #424242;
 
-}
