@@ -18,17 +18,18 @@ h3 {
 }
 
 p {
+	font-size: 1em;
 	font-family: Lato;
 	margin-top: 1em;
 	color: #9E9E9E;
 }
 
 #title {
-	padding-top: 5em;
+	padding-top: 3em;
 	margin-top: 0;
 	text-align: center;
 	color: #9E9E9E;
-	font-size: 20px;
+	font-size: 2em;
 	text-decoration: none;
 }
 
@@ -88,7 +89,7 @@ p {
 	margin-top: 50px;
 }
 
-#photo_a {
+.photo_full {
 	text-align: center;
 	height: 200px;
 	width: 600px;
