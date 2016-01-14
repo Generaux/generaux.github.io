@@ -145,34 +145,6 @@ p {
 	height: 200px;
 }
 
-#photo_double {
-	max-width: 600px;
-	margin-left: 100px;
-	margin-top: 50px;
-}
-
-.photo_half {
-	height: 200px;
-	width: 275px;
-	background-color: #EEEEEE;
-
-}
-
-.photo_half:hover {
-	background-color: #F5F5F5;
-}
-
-#photo_left {
-	max-width: 275px;
-	display: inline-block;
-}
-
-#photo_right {
-	max-width: 275px;
-	display: inline-block;
-
-}
-
 img {
 	transition: opacity .5s;
 
