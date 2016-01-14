@@ -13,7 +13,7 @@ body {
 
 h3 {
 	font-family: Lato;
-	color: #D81B60;
+	color: #FFC107;
 	margin-bottom: 10px;
 }
 
@@ -37,7 +37,7 @@ p {
 	width: 800px;
 	height: 250px;
 	font-family: Lato;
-	border-bottom: 2px solid #D81B60;
+	border-bottom: 4px solid #757575;
 }
 
 .nav {
@@ -48,8 +48,8 @@ p {
 	text-align: center;
 	border-bottom: 2px solid #E0E0E0;
 	text-decoration: none;
-	-webkit-transition: border-bottom .5s;
-	transition: border-bottom .5s;
+/*	-webkit-transition: border-bottom .5s;
+	transition: border-bottom .5s;*/
 }
 
 .nav p {
@@ -58,6 +58,7 @@ p {
 
 .nav:hover {
 	border-bottom: 2px solid #D81B60;
+	background-color: #EEEEEE;
 }
 
 .nav:active {
@@ -75,7 +76,7 @@ p {
 #photo_single {
 	max-width: 600px;
 	margin-left: 100px;
-	margin-top: 0;
+	margin-top: 50px;
 	display: inline-block;
 
 }
@@ -94,8 +95,13 @@ p {
 	-webkit-transition: background-color .5s;
 	transition: background-color .5s;
 	/*border-bottom: 2px solid #424242;*/
-	border-left: 2px Solid #D81B60;
+	border-left: 2px Solid #FFC107;
 	
+}
+
+#vespa {
+	width: 600px;
+	height: 200px;
 }
 
 .photo_half {
