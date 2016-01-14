@@ -11,10 +11,22 @@ body {
 	color: #ffffff;
 } 
 
-h3 {
-	font-family: Lato;
+.design {
 	color: #FFC107;
-	margin-bottom: 10px;
+}
+
+.home {
+	color: #F5F5F5;
+}
+
+#photo_single h3 {
+	font-family: Lato light;
+	color: #FFC107;
+	margin-bottom: 50px;
+}
+
+a {
+	text-decoration: none;
 }
 
 p {
@@ -38,6 +50,7 @@ p {
 	height: 250px;
 	font-family: Lato;
 	border-bottom: 4px solid #757575;
+	text-decoration: none;
 }
 
 .nav {
@@ -52,12 +65,16 @@ p {
 	transition: border-bottom .5s;*/
 }
 
+#nav_design {
+    border-bottom: 2px solid #FFC107;
+}
+
 .nav p {
 	margin-top: 70px;
 }
 
 .nav:hover {
-	border-bottom: 2px solid #D81B60;
+	border-bottom: 2px solid #757575;
 	background-color: #EEEEEE;
 }
 
@@ -76,7 +93,7 @@ p {
 #photo_single {
 	max-width: 600px;
 	margin-left: 100px;
-	margin-top: 50px;
+	margin-top: 100px;
 	display: inline-block;
 
 }
