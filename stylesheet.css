@@ -35,10 +35,22 @@ a {
 	text-decoration: none;
 }
 
+h3 {
+	font-size: 16px;
+	font-family: Lato;
+	color: #424242;
+}
+
 p {
 	font-family: Lato;
 	margin-top: 10px;
 	color: #9E9E9E;
+}
+
+.six_hundred {
+	padding-top: 100px;
+	max-width: 600px;
+	margin: auto;
 }
 
 #title {
@@ -109,23 +121,21 @@ p {
 #container {
 	padding-top: 0;
 	background-color: #F5F5F5; 
-	max-width: 50em;
-	height: 100%;
+	max-width: 800px;
+	height: 1600px;
 	margin: auto;
 }
 
 #photo_single {
+	padding-top: 100px;
 	max-width: 600px;
-	margin-top: 100px;
-	margin-left: 100px;
-	display: inline-block;
+	margin: auto;
 
 }
 
 #photo_single h3 {
 	font-family: Lato light;
 	color: #FFC107;
-	margin-bottom: 50px;
 }
 
 .photo_full {
@@ -155,4 +165,8 @@ img:hover {
     filter: alpha(opacity=60);
 }
 
+iframe {
+	float: center;
+	margin: auto;
+}
 
