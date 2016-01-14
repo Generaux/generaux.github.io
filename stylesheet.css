@@ -99,7 +99,7 @@ p {
 	
 }
 
-#vespa {
+.photo_full img {
 	width: 600px;
 	height: 200px;
 }
@@ -108,9 +108,6 @@ p {
 	height: 200px;
 	width: 275px;
 	background-color: #EEEEEE;
-	display: inline-block;
-	-webkit-transition: background-color .5s;
-	transition: background-color .5s;
 
 }
 
@@ -118,12 +115,12 @@ p {
 	background-color: #F5F5F5;
 }
 
-#photo_b {
+#photo_left {
 	max-width: 275px;
 	display: inline-block;
 }
 
-#photo_c {
+#photo_right {
 	max-width: 275px;
 	display: inline-block;
 	margin-left: 42px;
