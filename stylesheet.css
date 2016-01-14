@@ -36,6 +36,7 @@ p {
 }
 
 #title {
+	font-family: Lato light;
 	padding-top: 120px;
 	margin-top: 0;
 	text-align: center;
@@ -86,7 +87,7 @@ p {
 	padding-top: 0;
 	background-color: #F5F5F5; 
 	max-width: 50em;
-	height: 150vh;
+	height: 100%;
 	margin: auto;
 }
 
