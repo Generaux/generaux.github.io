@@ -98,6 +98,13 @@ p {
 	text-decoration: none;
 }
 
+.footer {
+	background-color: #F5F5F5;
+	width: 600px;
+	height: 100px;
+	clear: left
+}
+
 .nav {
 	display: inline-block;
 	width: 160px;
@@ -148,12 +155,6 @@ p {
 	background-color: #F5F5F5; 
 	max-width: 800px;
 	overflow: auto;
-	margin: auto;
-}
-
-#inner_container {
-	padding-top: 100px;
-	max-width: 600px;
 	margin: auto;
 }
 
