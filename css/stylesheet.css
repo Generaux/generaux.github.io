@@ -39,11 +39,14 @@ h3 {
 	font-size: 16px;
 	font-family: Lato;
 	color: #424242;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 p {
 	font-family: Lato;
 	margin-top: 25px;
+	/*margin-bottom: 25px;*/
 	color: #9E9E9E;
 }
 
@@ -54,13 +57,13 @@ p {
 }
 
 .left {
-	padding-top: 50px;
+	padding-top: 25px;
 	max-width: 275px;
 	float: left;
 }
 
 .right {
-	padding-top: 50px;
+	padding-top: 25px;
 	max-width: 275px;
 	float: right;
 }
@@ -144,7 +147,7 @@ p {
 	padding-top: 0;
 	background-color: #F5F5F5; 
 	max-width: 800px;
-	height: 1600px;
+	overflow: auto;
 	margin: auto;
 }
 
