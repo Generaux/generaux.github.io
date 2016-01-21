@@ -50,6 +50,10 @@ p {
 	color: #9E9E9E;
 }
 
+iframe {
+	padding-bottom: 25px;
+}
+
 .full {
 	padding-top: 100px;
 	max-width: 600px;
