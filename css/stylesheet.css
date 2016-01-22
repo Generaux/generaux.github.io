@@ -24,7 +24,7 @@ body {
 }
 
 .home {
-	color: #F5F5F5;
+	color: #757575;
 }
 
 .contact {
@@ -96,10 +96,10 @@ iframe {
 }
 
 #header {
-	background-color: #424242;
+	background-color: #F5F5F5;
 	width: 800px;
 	height: 250px;
-	border-bottom: 4px solid #757575;
+	border-bottom: 2px solid #E0E0E0;
 	text-decoration: none;
 }
 
