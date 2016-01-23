@@ -65,7 +65,6 @@ iframe {
 .title {
 	font-family: Lato;
 	letter-spacing: 5px;
-	padding-left: 100px;
 	text-align: center;
 	color: #9E9E9E;
 	font-size: 20px;
@@ -157,9 +156,11 @@ iframe {
     background-color: #424242;
     color: white;
     width: 800px;
-    height: 100px;
+    height: 200px;
     padding: 20px;
-    font-size: 16px;
+    font-family: Lato Light;
+	letter-spacing: 5px;
+    font-size: 24px;
     border-bottom: 2px solid #616161;
     border: none;
     cursor: pointer;
@@ -169,6 +170,7 @@ iframe {
 .dropdown {
     position: relative;
     display: inline-block;
+    margin: auto;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -181,7 +183,7 @@ iframe {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: #616161;
     padding: 20px;
     text-decoration: none;
     display: inline-block;
