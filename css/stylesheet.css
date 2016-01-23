@@ -8,7 +8,7 @@ html {
 
 body {
 	margin: 0;
-	color: #ffffff;
+	color: #EEEEEE;
 } 
 
 .design {
@@ -46,7 +46,6 @@ h3 {
 
 p {
 	font-family: Lato;
-	margin-top: 25px;
 	font-size: 1em;
 	color: #9E9E9E;
 }
@@ -91,40 +90,6 @@ iframe {
 	transition: border-bottom .5s;*/
 }
 
-#nav_home {
-    border-bottom: 2px solid #424242;
-}
-
-#nav_design {
-    border-bottom: 2px solid #FFC107;
-}
-
-#nav_videos {
-    border-bottom: 2px solid #E91E63;
-}
-
-#nav_photos {
-    border-bottom: 2px solid #00BCD4;
-}
-
-#nav_contact {
-	border-bottom: 2px solid #9C27B0;
-}
-
-.nav p {
-	font-size: 1em;
-	margin-top: 70px;
-}
-
-.nav:hover {
-	border-bottom: 2px solid #757575;
-	background-color: #EEEEEE;
-}
-
-.nav:active {
-	background-color: #EEEEEE;
-}
-
 #container {
 	padding-top: 0;
 	background-color: #F5F5F5; 
@@ -132,6 +97,15 @@ iframe {
 	overflow: auto;
 	margin: auto;
 }
+
+#photos {
+	padding-top: 0;
+	background-color: #EEEEEE; 
+	max-width: 800px;
+	overflow: auto;
+	margin: auto;
+}
+
 
 img {
 	-webkit-transition: opacity .5s;
