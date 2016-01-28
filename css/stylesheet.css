@@ -38,10 +38,11 @@ a {
 }
 
 h3 {
-	font-size: 16px;
+	margin: 0;
+	font-size: 1.5em;
 	font-family: Lato;
 	color: #9E9E9E;
-	padding-top: 25px;
+	/*padding-top: 25px;*/
 }
 
 p {
@@ -56,7 +57,7 @@ iframe {
 
 .full {
 	padding-top: 100px;
-	max-width: 600px;
+	max-width: 700px;
 	margin: auto;
 	font-size: 1em;
 }
@@ -72,7 +73,6 @@ iframe {
 }
 
 .footer {
-	background-color: #F5F5F5;
 	width: 800px;
 	height: 100px;
 	clear: left
@@ -92,7 +92,6 @@ iframe {
 
 #container {
 	padding-top: 0;
-	background-color: #F5F5F5; 
 	max-width: 800px;
 	overflow: auto;
 	margin: auto;
@@ -104,6 +103,11 @@ iframe {
 	max-width: 800px;
 	overflow: auto;
 	margin: auto;
+}
+
+.img_title {
+	margin-top: auto;
+	width: 800px;
 }
 
 
