@@ -42,7 +42,7 @@ h3 {
 	font-size: 1.5em;
 	font-family: Lato Light;
 	color: #9E9E9E;
-	/*padding-top: 25px;*/
+
 }
 
 p {
@@ -76,6 +76,11 @@ iframe {
 	width: 800px;
 	height: 100px;
 	clear: left
+}
+
+.break {
+	padding-top: 2em;
+	padding-bottom: 3em;
 }
 
 .nav {
