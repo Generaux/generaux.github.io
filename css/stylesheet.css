@@ -83,18 +83,6 @@ iframe {
 	padding-bottom: 3em;
 }
 
-.nav {
-	display: inline-block;
-	width: 160px;
-	height: 160px;
-	background-color: #F5F5F5;
-	text-align: center;
-	border-bottom: 2px solid #E0E0E0;
-	text-decoration: none;
-/*	-webkit-transition: border-bottom .5s;
-	transition: border-bottom .5s;*/
-}
-
 #container {
 	padding-top: 0;
 	max-width: 800px;
@@ -136,16 +124,16 @@ iframe {
 
 
 .dropbtn {
-    background-color: #424242;
-    color: white;
+    margin-top: 100px;
+    background-color: #EEEEEE;
+    padding: 0px;
+    color: #424242;
     width: 800px;
     height: 200px;
-  /*  padding: 10px;*/
     font-family: Lato Light;
 	letter-spacing: 5px;
     font-size: 24px;
-    border-bottom: 2px solid #616161;
-    border: none;
+    border: 1px solid #424242;
     cursor: pointer;
 }
 
@@ -160,7 +148,7 @@ iframe {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #EEEEEE;
     width: 800px;
 }
 
@@ -173,7 +161,10 @@ iframe {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #F5F5F5}
+.dropdown-content a:hover {
+	background-color: #F5F5F5;
+
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -182,6 +173,6 @@ iframe {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #424242;
+    background-color: #EEEEEE;
 }
 </style>
