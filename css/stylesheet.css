@@ -153,6 +153,7 @@ iframe {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
+    font-size: 1em;
     position: absolute;
     background-color: #EEEEEE;
     width: 800px;
