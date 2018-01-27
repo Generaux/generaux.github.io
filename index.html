@@ -61,6 +61,7 @@ body, html {
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#photography" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PHOTOGRAPHY</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -153,7 +154,7 @@ body, html {
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="img/dezignable.png" style="width:100%" class="w3-hover-opacity" alt="Photography" onclick="document.getElementById('id01').style.display='block'"></img>
+      <img src="img/dezignable.png" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('id01').style.display='block'"></img>
 <div id="id01" class="w3-modal">
     <div class="w3-modal-content">
       <header class="w3-container w3-white"> 
@@ -174,7 +175,7 @@ body, html {
     </div>
 
     <div class="w3-col m3">
-      <img src="img/neem.png" style="width:100%" class="w3-hover-opacity" alt="Photography" onclick="document.getElementById('id02').style.display='block'"></img>
+      <img src="img/neem.png" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('id02').style.display='block'"></img>
 <div id="id02" class="w3-modal">
     <div class="w3-modal-content">
       <header class="w3-container w3-white"> 
@@ -196,7 +197,7 @@ body, html {
     </div>
 
     <div class="w3-col m3">
-      <img src="img/maya.png" style="width:100%" class="w3-hover-opacity" alt="Photography" onclick="document.getElementById('id03').style.display='block'"></img>
+      <img src="img/maya.png" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('id03').style.display='block'"></img>
 <div id="id03" class="w3-modal">
     <div class="w3-modal-content">
       <header class="w3-container w3-white"> 
@@ -219,7 +220,7 @@ body, html {
     </div>
 
     <div class="w3-col m3">
-      <img src="img/velero.png" style="width:100%" class="w3-hover-opacity" alt="Photography" onclick="document.getElementById('id04').style.display='block'"></img>
+      <img src="img/velero.png" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('id04').style.display='block'"></img>
 <div id="id04" class="w3-modal">
     <div class="w3-modal-content">
       <header class="w3-container w3-white"> 
@@ -244,7 +245,7 @@ body, html {
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="img/satinroots.png" style="width:100%" class="w3-hover-opacity" alt="Photography" onclick="document.getElementById('id05').style.display='block'"></img>
+      <img src="img/satinroots.png" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('id05').style.display='block'"></img>
 <div id="id05" class="w3-modal">
     <div class="w3-modal-content">
       <header class="w3-container w3-white"> 
@@ -266,7 +267,7 @@ body, html {
 </div>
 
     <div class="w3-col m3">
-      <img src="img/velero.png" style="width:100%" class="w3-hover-opacity" alt="Photography" onclick="document.getElementById('id06').style.display='block'"></img>
+      <img src="img/velero.png" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('id06').style.display='block'"></img>
 <div id="id06" class="w3-modal">
     <div class="w3-modal-content">
       <header class="w3-container w3-white"> 
@@ -289,7 +290,7 @@ body, html {
     </div>
 
     <div class="w3-col m3">
-      <img src="img/cendre.png" style="width:100%" class="w3-hover-opacity" alt="Photography" onclick="document.getElementById('id07').style.display='block'"></img>
+      <img src="img/cendre.png" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('id07').style.display='block'"></img>
 <div id="id07" class="w3-modal">
     <div class="w3-modal-content">
       <header class="w3-container w3-white"> 
@@ -312,7 +313,7 @@ body, html {
     </div>
 
     <div class="w3-col m3">
-      <img src="img/josh.png" style="width:100%" class="w3-hover-opacity" alt="Photography" onclick="document.getElementById('id08').style.display='block'"></img>
+      <img src="img/josh.png" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('id08').style.display='block'"></img>
     <div id="id08" class="w3-modal">
     <div class="w3-modal-content">
       <header class="w3-container w3-white"> 
@@ -337,53 +338,34 @@ body, html {
 </div>
 
 <!-- Container (Photography Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
+<div class="w3-content w3-container w3-padding-64" id="photography">
   <h3 class="w3-center">Photography</h3>
   <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.</em></p><br>
 
-  <div class="w3-container">
-</div>
+  <style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<body>
 
-<div class="w3-content w3-display-container">
-
-<div class="w3-display-container mySlides">
-  <img src="img/dezignable.png" style="width:100%">
-  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-    Trolltunga, Norway
+<div class="w3-content w3-display-container" style="width:100%">
+  <img class="mySlides" src="img/dezignable.png" style="width:100%">
+  <img class="mySlides" src="img/01.png" style="width:100%">
+  <img class="mySlides" src="img/02.png" style="width:100%">
+  <img class="mySlides" src="img/03.png" style="width:100%">
+  <img class="mySlides" src="img/01.png" style="width:100%">
+  <img class="mySlides" src="img/02.png" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-topmiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
   </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="https://i.imgur.com/KldUObO.jpg" style="width:100%">
-  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-    Northern Lights, Norway
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="img_mountains.jpg" style="width:100%">
-  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
-    Beautiful Mountains
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="img_forest.jpg" style="width:100%">
-  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
-    The Rain Forest
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="img_mountains.jpg" style="width:100%">
-  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-    Mountains!
-  </div>
-</div>
-
-<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-
 </div>
 
 <script>
@@ -394,15 +376,24 @@ function plusDivs(n) {
   showDivs(slideIndex += n);
 }
 
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
   if (n > x.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
   x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
 }
 </script>
 </div>
